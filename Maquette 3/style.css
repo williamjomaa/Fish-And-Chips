@@ -1,0 +1,120 @@
+@font-face {
+    src: url(../font/Open_Sans/OpenSans-Regular.ttf);
+}
+
+body {
+    background-image: url('../img/fond.png');
+    font-family: OpenSans;
+    font-size: 1em;
+    color: #6a787c;
+}
+
+header img {
+    display: block;
+    margin: auto;
+}
+
+header {
+    margin-top: 10%;
+    border-top: 3px solid #226b6e;
+    border-bottom: 3px solid #226b6e;
+    background-color: #34b1b2;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+article img {
+    border-radius: 50%;
+    width: 25%;
+    float: left;
+    margin: 2%;
+}
+
+h1 {
+    font-size: 2em;
+    color: #4e5b63;
+}
+
+h3 {
+    color:#b6dedc ; 
+}
+
+button {
+    float: right;
+    background-color: #2b9aa0;
+    color: white;
+    padding: 2%;
+}
+
+.aq {
+    margin: auto;
+    min-width: 800px;
+    max-width: 1100px;
+}
+
+.ax {
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.ae {
+    display: inline-block;
+    width: 60%;
+    padding: 2%;
+    background-color: #b6dedc;
+}
+
+#ac {
+    display: inline-block ;
+    width: 45.5%;
+    margin: 0%;
+    padding: 0px 0px 0px 0px;
+    margin-right: 5px;
+}
+
+#an {
+    display: inline-block ;
+    width: 49%;
+    margin: 0%;
+    padding: 0px 0px 0px 0px;
+    margin-left: 25px;
+}
+
+.al {
+    float: right;
+    padding: 2%;
+    width: 30%;
+    background-color: #34b1b2;
+    border: 2px #2b9aa0 solid;
+    color: white;
+    position: relative;
+}
+
+.al img {
+    border-radius: 50%;
+    width: 40%;
+    float: right;
+    position: absolute;
+    right: -20px;
+    top: -38px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10%;
+}
